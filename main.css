@@ -2,26 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight:normal;
 }
 
 header,
 section h2,
 section h3,
 form button { /*Personalizar fonte de H1, H2, H3 e Botão de Formulario*/
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: 'Cinzel', serif;
 }
 
 body,
 input,
 textarea { /*Personalizar fonto da pagina*/
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Genos', sans-serif;
 }
 
 header {
     padding: 16px 0;
-    background-color: #182c61; /*cor do cabeçalho*/
-    color: #ecf0f1; /*cor da fonte do cabeçalho*/
+    background-color: #012428; /*cor do cabeçalho*/
+    color: #DFB771; /*cor da fonte do cabeçalho*/
 }
 
 header nav li {
@@ -31,7 +31,7 @@ header nav li {
 }
 
 header nav li a {
-    color: #ecf0f1;   /*cor da escrita do menu*/
+    color: #DFB771;   /*cor da escrita do menu*/
     text-decoration: none; /*remover underline dos links*/
 }
 
@@ -53,8 +53,9 @@ section .container {
 }
 
 .brands-list img {   
-    height: 24px;   /*Tamanho das logos*/
+    height: 35px;   /*Tamanho das logos*/
 }
+
 
 .brands-list li {
     display: inline;  /*deixando as imagens sequenciais na mesma linha*/
@@ -74,7 +75,7 @@ section h2 {
 }
 
 section {
-    color: #182c61; /*Cor do titulo e texto*/
+    color: #012428; /*Cor do titulo e texto*/
 }
 
 section p {    /*Margin de paragrafo*/
@@ -126,22 +127,26 @@ section h3{
 }
 
 form button {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color:#012428;
+    color: #DFB771;
     border: none;
     cursor:pointer /*cursor vira mão com idicador*/
 }
 
 form button:hover {
-    background-color: #364c8a; /*Mudando a cor do botão ao passar o mouse*/
+    background-color: #004542; /*Mudando a cor do botão ao passar o mouse*/
 }
 
 input:focus, textarea:focus {
-    outline-color:#182c61
+    outline-color:#012428
 }
 
 footer {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #012428; /*Roda pé*/
+    color: #DFB771;
     padding: 16px 0;
+}
+
+body {
+    background-color: #bba58c /*Coloração na tela*/
 }
